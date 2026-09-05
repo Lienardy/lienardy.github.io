@@ -691,12 +691,13 @@ footer p {
         grid-template-columns: 1fr;
         height: auto;
         min-height: auto;
+        gap: 20px;
     }
 
     .organization-list,
     .committee-list {
         height: auto;
-        overflow-y: visible;
+        overflow-y: auto;
     }
 
     .organization-list .card,
@@ -710,7 +711,7 @@ footer p {
     }
 
     .slider-image {
-        height: 250px;
+        height: 200px;
     }
 
     /* CERTIFICATION */
