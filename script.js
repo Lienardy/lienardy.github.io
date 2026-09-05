@@ -28,32 +28,32 @@ window.addEventListener("load", updateActiveNav);
 
 const certificates = [
     {
-        image: "images/Certificates/html.jpg",
+        image: "Certificates/html.jpeg",
         title: "HTML",
         description: "Certification in HTML and fundamental web structure."
     },
     {
-        image: "images/Certificates/css.jpg",
+        image: "Certificates/css.jpeg",
         title: "CSS",
         description: "Certification in CSS and website styling."
     },
     {
-        image: "images/Certificates/javascript.jpg",
+        image: "Certificates/javascript.jpeg",
         title: "JavaScript",
         description: "Certification in JavaScript and basic programming logic."
     },
     {
-        image: "images/Certificates/python.jpg",
+        image: "Certificates/python.jpeg",
         title: "Python",
         description: "Certification in Python programming."
     },
     {
-        image: "images/Certificates/intro to programming.jpg",
+        image: "Certificates/intro to programming.jpeg",
         title: "Introduction to Programming",
         description: "Certification in fundamental programming concepts."
     },
     {
-        image: "images/Certificates/Ai Fundamentals.jpg",
+        image: "Certificates/Ai Fundamentals.jpeg",
         title: "AI Fundamentals",
         description: "Certification in Artificial Intelligence fundamentals."
     }
