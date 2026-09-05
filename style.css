@@ -726,6 +726,13 @@ footer p {
         padding: 20px;
     }
 
+    #contact {
+        min-height: auto;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+
     /* FOOTER */
     footer {
         margin-right: 0;
