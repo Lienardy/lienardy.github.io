@@ -26,7 +26,7 @@ window.addEventListener("scroll", updateActiveNav);
 window.addEventListener("load", updateActiveNav);
 
 
-const certificates = [
+const Certificates = [
     {
         image: "Certificates/HTML.png",
         title: "HTML",
@@ -69,11 +69,11 @@ const prevCertificate = document.getElementById("prevCertificate");
 const nextCertificate = document.getElementById("nextCertificate");
 
 function showCertificate(index) {
-    const certificate = certificates[index];
+    const certificate = Certificates[index];
 
     certificateImage.src = certificate.image;
     certificateImage.alt = `${certificate.title} Certificate`;
-    certificateNumber.textContent = `${index + 1} / ${certificates.length}`;
+    certificateNumber.textContent = `${index + 1} / ${Certificates.length}`;
     certificateTitle.textContent = certificate.title;
     certificateDescription.textContent = certificate.description;
 }
@@ -83,7 +83,7 @@ if (prevCertificate && nextCertificate) {
         certificateIndex--;
 
         if (certificateIndex < 0) {
-            certificateIndex = certificates.length - 1;
+            certificateIndex = Certificates.length - 1;
         }
 
         showCertificate(certificateIndex);
@@ -92,7 +92,7 @@ if (prevCertificate && nextCertificate) {
     nextCertificate.addEventListener("click", () => {
         certificateIndex++;
 
-        if (certificateIndex >= certificates.length) {
+        if (certificateIndex >= Certificates.length) {
             certificateIndex = 0;
         }
 
