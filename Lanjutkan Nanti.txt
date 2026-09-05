@@ -1,0 +1,135 @@
+<section id="projects">
+
+            <p class="section-label">
+                07 — PROJECTS
+            </p>
+
+            <h2>
+                Projects
+            </h2>
+
+            <div class="card-container">
+
+                <article class="card">
+
+                    <img
+                        src="images/projects/project1.jpg"
+                        alt="Project 1"
+                    >
+
+                    <h3>
+                        Project 1
+                    </h3>
+
+                    <p>
+                        Description of the project, your role,
+                        and technologies used.
+                    </p>
+
+                    <p class="tech">
+                        HTML • CSS • JavaScript
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img
+                        src="images/projects/project2.jpg"
+                        alt="Project 2"
+                    >
+
+                    <h3>
+                        Project 2
+                    </h3>
+
+                    <p>
+                        Description of the project, your role,
+                        and technologies used.
+                    </p>
+
+                    <p class="tech">
+                        Python • SQL
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img
+                        src="images/projects/project3.jpg"
+                        alt="Project 3"
+                    >
+
+                    <h3>
+                        Project 3
+                    </h3>
+
+                    <p>
+                        Description of the project, your role,
+                        and technologies used.
+                    </p>
+
+                    <p class="tech">
+                        Figma • UI/UX
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="achievements">
+
+            <p class="section-label">
+                08 — ACHIEVEMENTS
+            </p>
+
+            <h2>
+                Achievements & Certificates
+            </h2>
+
+            <div class="card-container">
+
+                <article class="card">
+
+                    <img
+                        src="images/achievements/osn.jpg"
+                        alt="Achievement"
+                    >
+
+                    <h3>
+                        Achievement
+                    </h3>
+
+                    <p>
+                        Description of achievement.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <img
+                        src="images/achievements/certificate.jpg"
+                        alt="Certificate"
+                    >
+
+                    <h3>
+                        Certificate
+                    </h3>
+
+                    <p>
+                        Description of certificate.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
