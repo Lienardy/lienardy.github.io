@@ -27,6 +27,12 @@ body {
     line-height: 1.6;
 }
 
+.education-logo-sma {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
 section {
     min-height: 100vh;
     scroll-snap-align: start;
