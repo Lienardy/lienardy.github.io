@@ -230,11 +230,6 @@ function showCommittee(index) {
 
     if (selectedCard) {
         selectedCard.classList.add("active");
-
-        selectedCard.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
     }
 }
 
